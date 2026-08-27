@@ -305,11 +305,11 @@ if __name__ == "__main__":
 
     with open("agency.txt", "w", encoding="utf-8") as f:
         f.write("agency_id,agency_name,agency_url,agency_timezone\n")
-        f.write('"FEDA","Mou-te Andorra","https://www.fedasolucions.ad","Europe/Andorra"\n')
+        f.write('"FEDA","Andorra Bus","https://www.bus.ad","Europe/Andorra"\n')
 
     with open("feed_info.txt", "w", encoding="utf-8") as f:
         f.write("feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url\n")
-        f.write(f'"Mou-te Andorra","https://www.fedasolucions.ad","ca",{today_str},{end_date_str},"1.0","info@bus.ad","https://bus.ad/contacte/"\n')
+        f.write(f'"Petr Novak","https://github.com/hoermalmeister/andorra_gtfs/","ca",{today_str},{end_date_str},"1.0","info@bus.ad","https://bus.ad/contacte/"\n')
 
     with open("calendar.txt", "w", encoding="utf-8") as f:
         f.write("service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date\n")
